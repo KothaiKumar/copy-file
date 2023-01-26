@@ -20,12 +20,19 @@ Anaconda - Python 3.7
 ###Step 7: Print the output.
 
 ## PROGRAM:
+```python
 developed by: Kothai K
+
 registered number: 22006043
+
 with open("git.txt","r") as f1:
+
     with open("MyFile.txt","a") as f2:
+    
         for line in f1:
+        
             f2.write(line)
+```  
 ## OUTPUT:
 ![copyfile](https://user-images.githubusercontent.com/121215739/214854248-678470fb-0dd3-48d1-856b-91d299f567c0.png)
 
