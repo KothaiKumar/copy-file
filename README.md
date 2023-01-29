@@ -24,17 +24,17 @@ Step 7: Print the output.
 developed by: Kothai K
 
 registered number: 22006043
+with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
 
-with open("git.txt","r") as f1:
-
-    with open("MyFile.txt","a") as f2:
+    for line in firstfile:
     
-        for line in f1:
-        
-            f2.write(line)
+             secondfile.write(line)
 ```  
 ## OUTPUT:
-![copyfile](https://user-images.githubusercontent.com/121215739/214854248-678470fb-0dd3-48d1-856b-91d299f567c0.png)
+![copy_file 1](https://user-images.githubusercontent.com/121215739/215323869-d5d8fc3b-c197-47f2-9649-67b2353b3c70.jpg)
+![copy_file_2](https://user-images.githubusercontent.com/121215739/215323876-06c0b501-ed16-449d-87f9-2bd6a3fd3c6f.jpg)
+![copy_file_3](https://user-images.githubusercontent.com/121215739/215323888-95c235f5-03d7-4590-a8e0-321426cf50ce.jpg)
+
 
 
 ## RESULT:
